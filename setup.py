@@ -14,6 +14,9 @@ try:
 finally:
     os.chdir(curdir)
 
+with open('empty.c', 'w') as f:
+    pass
+
 
 setup(
     setup_requires=['pbr'],
