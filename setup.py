@@ -34,7 +34,7 @@ class build_ext(build_ext):
 
 
 setup(name='pypatchelf',
-      version='0.8',
+      version='0.9',
       maintainer="Robert T. McGibbon",
       maintainer_email="rmcgibbo@gmail.com",
       author="Eelco Dolstra",
